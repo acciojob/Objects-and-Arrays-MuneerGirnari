@@ -7,9 +7,9 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
-let team = [players[0], players[1], players[2], players[3]];
+const team = [players.at(0), players.at(1), players.at(2), players.at(3)];
 
-let team1 = ["John", "Bob", "Alice", "Dhoni"];
+const team1 = ["John", "Bob", "Alice", "Dhoni"];
 
 let cap1 = {
   name: "John Doe",
