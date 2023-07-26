@@ -10,6 +10,9 @@ const person = {
 const team = players;
 
 const team1 = [...players];
+team.pop();
+team.push("Dhoni");
+
 
 let cap1 = {...person}
 
