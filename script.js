@@ -7,14 +7,11 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
-const team = [players.at(0), players.at(1), players.at(2), players.at(3)];
+const team = players;
 
-const team1 = ["John", "Bob", "Alice", "Dhoni"];
+const team1 = [...players];
 
-let cap1 = {
-  name: "John Doe",
-  age: 80,
-}
+let cap1 = {...person}
 
 window.players = players;
 window.person = person;
